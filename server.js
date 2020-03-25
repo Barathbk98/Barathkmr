@@ -87,7 +87,7 @@ app.post("/signupfacebook",(req,res)=>{
 
 })
 
-var Subject = function() {
+var Subject = function() {                                  //observer design pattern
     let observers = [];
   
     return {
